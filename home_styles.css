@@ -1,0 +1,67 @@
+h1 {
+	text-align: center;
+	background-color: #a578fa;
+}
+
+h2 {
+	background-color: #a578fa;
+}
+
+/*centered image and name*/
+.center {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	width: 25%;
+}
+
+p {
+	background-color: #bfe6ff;
+	text-align: center;
+}
+
+body {
+	font-family: sans-serif;
+	/*background image*/
+	background-image: url("Illustration2.png");
+	background-size: 20%;
+	background-color: #ab63f2;
+}
+
+/*zebra table*/
+tr:nth-child(even){
+	background-color: #bfe6ff;
+}
+tr:nth-child(odd){
+	background-color: #ffbffc;
+}
+.centerZ {
+	margin:auto;
+	width:25%;
+}
+
+ul {
+	background-color: #bfe6ff;
+}
+
+ol {
+	background-color: #bfe6ff;
+}
+
+/*div*/
+.homeDiv {
+	border: 5px outset #a578fa;
+	background-color: #ffbffc;
+	text-align: center;
+}
+
+/*hover effect*/
+a:hover {
+	background-color: #34ed9d;
+}
+
+/*span tag*/
+span.homeSpan {
+	color: red;
+	font-weight: bold;
+}
